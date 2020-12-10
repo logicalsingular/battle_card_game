@@ -110,5 +110,6 @@ class Game():
             return p2.name
         return "Draw!"
 
-lol = Game()
-lol.play_game()
+if __name__ == '__main__':
+    game = Game()
+    game.play_game()
